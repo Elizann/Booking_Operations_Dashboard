@@ -1,35 +1,57 @@
 # 📊 Booking Intelligence Dashboard
 
-An AI-powered booking analytics dashboard built using Streamlit, Supabase, and OpenRouter LLM.
+## 🚀 Overview
+AI-powered booking analytics dashboard using Streamlit, Supabase, and OpenRouter LLM.
 
 ---
 
-## 🚀 Features
-
+## ✨ Features
 - KPI Dashboard (Total, Completed, Cancelled, Cancellation Rate)
-- Branch-wise Performance Analysis
-- Service Tier Distribution
-- Payment Status Analysis
-- AI-powered Insights using LLM
-- Interactive visualizations (Plotly)
-- Clean multi-page structure
-
----
-
-## 🧠 AI Features
-
-The system uses an LLM (OpenRouter API) to generate:
-
-- Key trends in booking data
-- Risk analysis
-- Anomaly detection
-- Business recommendations
+- Branch Performance Analysis
+- Service & Payment Analytics
+- AI-generated Business Insights
+- Interactive Charts (Plotly)
+- Insight Validation with SQL
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone Repo
-```bash
+### 1. Clone repo
 git clone <repo_url>
 cd BookingDashboard
+
+### 2. Install dependencies
+pip install -r requirements.txt
+
+### 3. Configure environment
+Create `.env` using `.env.example`
+
+### 4. Run app
+streamlit run app.py
+
+---
+
+## 🧠 AI Feature
+Uses OpenRouter LLM to generate:
+- Trends
+- Risks
+- Anomalies
+- Recommendations
+
+---
+
+## 📊 Insight Validation
+AI output is verified using SQL queries on raw Supabase data.
+
+---
+
+## 📷 Screenshots
+See `/screenshots` folder for:
+- Dashboard view
+- AI insights output
+
+---
+
+## 👩‍💻 Author
+AI Data Analytics Project
