@@ -18,7 +18,7 @@ AI-powered booking analytics dashboard using Streamlit, Supabase, and OpenRouter
 ## ⚙️ Setup Instructions
 
 ### 1. Clone repo
-git clone <(https://github.com/Elizann/Booking_Operations_Dashboard)>
+git clone <https://github.com/Elizann/Booking_Operations_Dashboard>
 cd BookingDashboard
 
 ### 2. Install dependencies
